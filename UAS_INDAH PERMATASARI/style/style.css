@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.all-content {
+    background: #f7f5f2;
+}
+
+html ::-webkit-scrollbar-track {
+    background: #111;
+}
+
+html ::-webkit-scrollbar-thumb {
+    background: #8a5f42;
+    border-radius: 10px;
+}
+
+html ::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* navbar start */
+#navbar {
+    background-color: #8a5f42;
+    height: 90px;
+    box-shadow: 0px 0px 5px;
+}
+
+#logo img {
+    width: 160px;
+    margin-left: 30px;
+    cursor: context-menu;
+}
+
+.navbar-nav {
+    margin-right: 50px;
+}
+
+.nav-item .nav-link {
+    color: rgb(255, 255, 255);
+    margin-left: 35px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.nav-item .nav-link:hover {
+    background: #f7f5f2;
+    border-radius: 5px;
+    color: #652f0b;
+}
+/* navbar end */
+
+/* home section start */
+#home {
+    width: 100%;
+    height: 85vh;
+    background-image: linear-gradient(rgb(0,0,0,0.3),rgb(0,0,0,0.3)), url(/img/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 88%;
+}
+
+#home .content {
+    padding-top: 110px;
+    margin-left: 56px;
+}
+
+#home .content h3 {
+    font-weight: 600;
+    font-size: 50px;
+    color: white;
+}
+
+#home .content p {
+    margin-top: 10px;
+    color: white;
+}
+
+#btn {
+    width: 170px;
+    height: 45px;
+    margin-top: 20px;
+    background: white;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background: #632f0c;
+    color: white;
+}
+/* home section end */
+
+/* about section start */
+#about {
+    width: 100%;
+    height: 100vh;
+}
+
+#about .container {
+    padding-top: 70px;
+}
+
+.heading {
+    position: relative;
+    text-align: center;
+    margin-bottom: 25px;
+    top: -30px;
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.heading span {
+    color: #652f0b;
+}
+
+#about card {
+    border-radius: 10px;
+}
+
+#about .card img {
+    border-radius: 10px;
+}
+
+#about-btn {
+    width: 200px;
+    height: 36px;
+    background: transparent;
+    border: 2px solid #652f0b;
+    color: #652f0b;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#about-btn:hover {
+    background-color: #652f0b;
+    color: white;
+}
+
+@media screen and (max-width:982px) {
+    #about p {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width:766px) {
+    #about p {
+        font-size: 15px;
+    }
+    #about {
+        height: 120vh;
+    }
+}
+/* about section end */
+
+/* news start */
+#news {
+    width: 100%;
+}
+
+#news .heading2 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+}
+
+#news .heading2 span {
+    color: #8a5f42;
+}
+
+#news .card-body span {
+    font-weight: 600;
+    color: #8a5f42;
+}
+
+#news .container {
+    margin-top: 50px;
+}
+
+#news h5 {
+    color: #8a5f42;
+    font-size: 15px;
+}
+
+#news-btn {
+    width: 190px;
+    height: 36px;
+    border: none;
+    color: white;
+    background: #652f0b;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: .5s;
+}
+
+#news-btn:hover {
+    border: 1px solid #8a5f42;
+    background: transparent;
+    color: #111;
+}
+/* news end */
+
+/* portofolio start */
+#portofolio {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.circle-porto {
+    position: absolute;
+    background: skyblue;
+    width: 860px;
+    height: 456px;
+    right: -18%;
+    top: 26%;
+    transform: translatex(-50%);
+    box-shadow: 6px 6px 6px #111;
+    border-radius: 36px;
+}
+
+.circle-porto h1 {
+    color: black;
+    padding-top: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.circle-porto p {
+    color: #fff;
+    text-align: left;
+    max-width: 450px;
+    margin-top: 55px;
+    margin-left: 55px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.circle-porto .p2 {
+    color: #111;
+    margin-top: -1px;
+    max-width: 450px;
+}
+
+.circle-porto p span {
+    font-weight: 700;
+    font-size: 35px;
+    color: #8a5f42;
+}
+
+.circle-poto {
+    position: absolute;
+    background: #ff0000;
+    width: 260px;
+    height: 316px;
+    right: -10%;
+    top: 21%;
+    transform: translatex(-50%);
+}
+
+.circle-poto .poto {
+    width: 253px;
+}
+
+@media screen and (max-width:770px) {
+    #portofolio {
+        height: 330vh;
+    }
+}
+
+@media screen and (max-width:460px) {
+    #portofolio {
+        height: 270vh;
+    }
+}
+
+@media screen and (max-width:380px) {
+    #portofolio {
+        height: 235vh;
+    }
+}
+
+@media screen and (max-width:312px) {
+    #portofolio {
+        height: 200vh;
+    }
+}
+
+@media screen and (max-width:300px) {
+    #portofolio {
+        height: 190vh;
+    }
+}
+
+@media screen and (max-width:280px) {
+    #portofolio h1{
+        padding-top: 100px;
+    }
+}
+/* portofolio end */
+
+/* faq start */
+.faq-box .accordion-button ::after {
+    background-color: white;
+    border-radius: 100%;
+}
+
+#faq {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+#faq .container {
+    padding-top: 20px;
+}
+
+#faq h1 {
+    color: black;
+    padding-top: 70px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#faq .accordion-button {
+    background: #8a5f42 !important;
+}
+
+/* faq end */
